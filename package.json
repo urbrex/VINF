@@ -1,0 +1,19 @@
+{
+  "name": "vinf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-queue": "^3.8.10",
+    "cheerio": "^1.0.0-rc.3",
+    "fs": "0.0.1-security",
+    "line-by-line": "^0.1.6",
+    "readline": "^1.3.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
