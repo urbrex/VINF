@@ -1,0 +1,33 @@
+{
+    "properties": {
+        "book":{
+          "type":"integer"
+        },
+        "editions":{
+            "properties":{
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "keyword"
+                },
+                "isbn": {
+                    "type": "keyword"      
+                },
+                "isbn13": {
+                    "type": "keyword"      
+                },
+                "series": {
+                    "type": "keyword"      
+                },
+                "description": {
+                    "type": "text",
+                    "analyzer":"rebuilt_french"
+                },
+                "characters": {
+                    "type": "keyword"      
+                }
+            }
+        }
+    }
+}
